@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=IBM+Plex+Sans+Thai+Looped:wght@600&family=Montserrat:ital,wght@0,600;1,700&family=Playfair+Display:wght@600&family=Roboto+Serif:ital,wght@0,100;1,400&family=Roboto:ital@1&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+
+    margin:0;
+}
+body{
+    background: BLACK;
+}
+.titre {
+    text-align: center;
+}
+h1{
+    font-family: 'Black Ops One', cursive;;
+    color:white;
+}
+p{
+    color:white;
+    text-align: center;
+    width:50%;
+    margin-bottom: 30px;
+}
+
+.fenetre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:100px 0;
+    align-items: center;
+}
+img{
+    border-radius: 20px;
+}
+.fenetre1 img{
+    
+  
+    height: 60vh;
+}
+.fenetre2 img{
+    
+    height: 70vh;
+}
+.fenetre3 img{
+    
+    height: 70vh;
+}
+.fenetre1 img:hover{
+    box-shadow:  0 15px 35px 50px #c71717;
+    transition:box-shadow 0.5s ease;
+}
+.fenetre2 img:hover{
+    box-shadow: 0 15px 35px 50px #1ace1a;
+    transition:box-shadow 0.5s ease;
+}
+.fenetre3 img:hover{
+    box-shadow: 0 15px 35px 50px #1ace1a;
+    transition:box-shadow 0.5s ease;
+}
